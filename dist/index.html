@@ -28,7 +28,7 @@
             <li><a href="#">Careers</a></li>
           </ul>
           <button
-            class="rounded-3xl text-white bg-gradient-to-r from-lime-green to-bright-cyan px-9 py-4 hover:bg-gradient-to-r hover:bg-opacity-85 text-xl"
+            class="rounded-3xl text-white bg-gradient-to-r from-lime-green to-bright-cyan px-9 py-4 hover:opacity-75 text-xl"
           >
             Request Invite
           </button>
@@ -46,7 +46,7 @@
           more.
         </p>
         <button
-          class="rounded-3xl text-white bg-gradient-to-r from-lime-green to-bright-cyan px-9 py-4 hover:bg-gradient-to-r hover:bg-opacity-85 text-xl"
+          class="rounded-3xl text-white bg-gradient-to-r from-lime-green to-bright-cyan px-9 py-4 hover:opacity-75 text-xl"
         >
           Request Invite
         </button>
@@ -182,15 +182,70 @@
       </div>
     </div>
 
-    <div class="max-w-[1440px] mx-auto text-lg">
-      By Claire Robinson About Us Contact Blog Careers Support Privacy Policy
-      Request Invite © Easybank. All Rights Reserved
+    <div class="bg-dark-blue text-white py-12">
+      <div
+        class="max-w-[1440px] mx-auto text-lg grid grid-cols-4 justify-between"
+      >
+        <div class="flex justify flex-col space-y-16 justify-between">
+          <img src="./images/logo.svg" alt="logo" />
+          <ul class="flex space-x-5">
+            <li>
+              <a href="#"
+                ><img src="./images/icon-facebook.svg" alt="icon-facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/icon-youtube.svg" alt="icon-facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/icon-twitter.svg" alt="icon-facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/icon-pinterest.svg" alt="icon-facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./images/icon-instagram.svg" alt="icon-facebook"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <ul class="flex flex-col justify-between">
+          <li><a class="hover:text-lime-green" href="#">About Us</a></li>
+          <li><a class="hover:text-lime-green" href="#"> Contact</a></li>
+          <li><a class="hover:text-lime-green" href="#"> Blog</a></li>
+        </ul>
 
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        <ul class="flex flex-col -ml-12 justify-between">
+          <li><a class="hover:text-lime-green" href="#">Careers</a></li>
+          <li><a class="hover:text-lime-green" href="#"> Support</a></li>
+          <li><a class="hover:text-lime-green" href="#"> Privacy Policy</a></li>
+        </ul>
+
+        <div class="flex flex-col justify-between justify-self-end ml-12">
+          <button
+            class="rounded-3xl text-white bg-gradient-to-r from-lime-green to-bright-cyan px-9 py-4 hover:opacity-75 text-xl"
+          >
+            Request Invite
+          </button>
+          <p class="text-gray-blue my-6">© Easybank. All Rights Reserved</p>
+
+          <div class="text-gray-blue">
+            Challenge by
+            <a
+              class="hover:text-lime-green"
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a class="hover:text-lime-green" href="#">Ahmed</a>.
+          </div>
+        </div>
       </div>
     </div>
   </body>
