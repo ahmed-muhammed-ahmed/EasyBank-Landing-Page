@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Public Sans", sans-serif;
+  }
+}
+
+:root {
+  --dark-blue: #2d314d;
+  --lime-green: #31d35c;
+  --bright-cyan: #2bb7da;
+  --gray-blue: #9698a6;
+  --light-gray-blue: #f3f4f6;
+  --light-gray: #fafafa;
+  --white: #ffffff;
+}
+/* .bg-light {
+  background-color: var(--light-gray);
+}
+
+.bg-white {
+  background-color: var(--white);
+} */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
